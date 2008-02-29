@@ -1,0 +1,11 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'DNS admin' %}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">{% trans 'DNS administration' %}</h1>
+<h2>DNS-Records at large</h2>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
