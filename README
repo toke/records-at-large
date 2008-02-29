@@ -1,33 +1,8 @@
-"records at large" / servermanage
+"records at large" is a simple DNS-Management suite.
 
-Beware: this project is in a very early stage! It should work.
+This Project is still in a very early stage. 
+It should work but needs source tweaking.
 
+Feel free to contribute.
 
-Prerequisites:
-* Python
-* Django (http://www.djangoproject.com)
-* Python DB-Drivers (see Django)
-* powerdnsd
-
-Installation:
-
-create settings.py (you can use settings_example.py as an example).
-* Change DATABASE-Stuff to match your Setup.
-* CHANGE SECRET_KEY!
-
-Create the database:
-./manage.py syncdb
-
-
-Configure powerdnsd:
-Hint:
-
-launch=gpgsql
-
-gpgsql-dbname=servermanage
-gpgsql-user=servermanage
-gpgsql-password=secret
-gpgsql-host=127.0.0.1 
-
-
-It should work.
+The Licence is not yet decided but will be a BSD style Licence.
